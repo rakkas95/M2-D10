@@ -1,0 +1,175 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(232, 226, 226);
+}
+
+.container {
+    max-width: 1180px;
+}
+
+.btm-brd {
+    border-bottom: 1px solid rgb(189, 183, 188);
+}
+
+.highlighter-icon {
+    color: black;
+}
+
+.navbar-brand svg{
+    width: 34px;
+    height: 31px;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 2px;
+}
+
+.navbar::before {
+    content: "";
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(/gog-assets/bg-top.jpg) repeat-x top center rgba(26, 26, 26, 0.9);
+}
+
+.customised-nav a{
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.customised-nav .sign-in{
+    color: rgb(121, 8, 121);
+}
+
+.customised-nav .sign-in:hover {
+    color: rgb(211, 24, 211);
+}
+
+.navbar-icons .btn{
+    color: #cccccc;
+}
+
+#giveway-banner::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    border-left: 126px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.35);
+}
+
+.giveway-bkgd-wrapper {
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url(/gog-assets/giveway-bnr-pic.jpg);
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 0;
+    padding: 0;
+}
+
+.carousel-indicators{
+    bottom: -3rem;
+}
+
+.card-deck{
+    margin-top: 3rem;
+}
+
+.badge {
+    background-color:#78387B;
+    color: white;
+}
+
+
+/* Four cards */
+
+.card .firstCard{
+    background-image: url("/gog-assets/tile1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+}
+
+.card .second{
+    background-image: url("/gog-assets/tile2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+}
+
+.card .third{
+    background-image: url("/gog-assets/tile\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+}
+
+.card .fourth{
+    background-image: url("/gog-assets/tile\ \(6\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+}
+
+/* DRM-free */
+
+#drm-free a{
+    color: black;
+    text-decoration: underline;
+}
+
+#drm-free .prp-txt{
+    color: #b813c1;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.galaxy-logo {
+    width: 100%;
+}
+
+.img-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-brd {
+    border-right: 1px solid rgb(186, 181, 181);
+}
+
+.tp-brd {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(189, 183, 188);
+}
+
+#visa-morta .container{
+    position: relative;
+}
+
+#visa-morta img{
+    width: 100%;
+}
+
+.txt-wrapper {
+    position: relative;
+    bottom: 70px;
+    left: 8px;
+}
+
